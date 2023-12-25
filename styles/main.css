@@ -1,0 +1,159 @@
+main {
+    padding: 72px 0 0 0;
+    height: 460px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    height: 400px;
+    width: 820px;
+    margin: 0 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.facebook img {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
+.facebook h2 {
+    margin: 0 0 0 23px;
+    font-weight: lighter;
+    padding: 0;
+    width: 420px;
+}
+
+.login-details {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+ .login-info {
+    width: 320px;
+    height: 280px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 10px;
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    height: 100px;
+    margin: 15px 0 15px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 221, 221);
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(223, 221, 221);
+}
+
+.input1[type="text"] {
+    text-indent: 10px;
+}
+
+.input1[type="text"]:focus { 
+    outline: 1px solid #099ef5;
+    box-shadow: 1px 1px 1px #099ef5; 
+}
+
+.input2[type="password"] {
+    text-indent: 10px;
+}
+
+.input2[type="password"]:focus { 
+    outline: 1px solid #099ef5;
+    box-shadow: 1px 1px 1px #099ef5; 
+}
+
+.login-button {
+    width: 290px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(44, 121, 236); 
+    font-weight: 900;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+}
+
+.forgotten-password {
+    padding: 10px 0;
+    font-size: 12px;
+    
+}
+
+.forgotten-password a {
+    color: #099ef5;
+}
+
+.forgotten-password a:hover {
+    text-decoration: underline;
+}
+
+.new-account {
+    width: 290px;
+    padding: 20px 0;
+    border-top: 1px solid rgb(223, 221, 221);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-account button {
+    height: 40px;
+    width: 160px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(14, 199, 14);
+}
+
+.new-account button:hover {
+    cursor: pointer;
+    background-color: rgb(17, 165, 17);
+}
+
+.create-page {
+    font-size: 12px;
+}
+
+.create-page a {
+    color: black;
+    font-weight: bold;
+}
+
+.create-page a:hover {
+    text-decoration: underline;
+}
